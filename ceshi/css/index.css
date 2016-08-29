@@ -1,0 +1,409 @@
+body {
+	background: #f9f9f9;
+		/*background: #204D74;*/
+	font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif;
+}
+
+.main {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.mt15 {
+	margin-top: 15px;
+}
+
+.mr10 {
+	margin-right: 10px;
+}
+
+.top {
+	width: 100%;
+	height: 75px;
+	background: #fff;
+	border-bottom: 1px solid #dbdbdb;
+	min-width: 1000px;
+}
+
+.logo {
+	width: 120px;
+	height: 60px;
+	float: left;
+	margin-top: 10px;
+}
+
+.nav {
+	float: left;
+}
+
+.nav li {
+	float: left;
+	font-size: 14px;
+	line-height: 75px;
+	margin-left: 90px;
+}
+
+.nav li a {
+	color: #000;
+}
+
+.nav li a.se {
+	color: #35b558;
+}
+
+.nav li a:hover {
+	color: #35b558;
+}
+
+.banner {
+	width: 660px;
+	height: 400px;
+	background: #fff;
+}
+
+.section-focus-pic {
+	height: 400px;
+	width: 660px;
+	overflow: hidden;
+	position: relative;
+}
+
+.section-focus-pic ul li {
+	position: absolute;
+	top: 0;
+	left: 660px;
+	width: 660px;
+	height: 400px;
+}
+
+.section-focus-pic ul li h3 {
+	position: absolute;
+	bottom: 11px;
+	left: 0;
+	width: 400px;
+	font-weight: normal;
+	color: #FFF;
+	margin-left: 20px;
+	z-index: 111;
+	font-size: 18px;
+	font-family: "微软雅黑";
+}
+
+.section-focus-pic ul li div {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	background-color: #000;
+	width: 660px;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.section-focus-pic .pages {
+	width: 660px;
+	height: 400px;
+}
+
+.section-focus-pic .controler {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.section-focus-pic .controler b {
+	cursor: pointer;
+	width: 20px;
+	height: 10px;
+	display: block;
+	overflow: hidden;
+	text-indent: 20px;
+	background: url(../img/news_index_icon.png) no-repeat -136px 3px;
+	float: left;
+	margin: 0 0 0 5px;
+}
+
+.section-focus-pic .controler b.down {
+	background-position: -161px 1px;
+}
+
+.section-focus-pic .controler2 a {
+	display: block;
+	width: 40px;
+	position: absolute;
+	top: 160px;
+	height: 40px;
+}
+
+.section-focus-pic .controler2 a i {
+	cursor: pointer;
+	display: block;
+	width: 22px;
+	height: 34px;
+	background: url(../img/star.png) no-repeat;
+}
+
+.section-focus-pic .controler2 .prev {
+	left: 5px;
+}
+
+.section-focus-pic .controler2 .prev i {
+	background-position: -34px -68px;
+	_background: none;
+	_filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='../img/star_05.png');
+	margin-left: 5px;
+}
+
+.section-focus-pic .controler2 .prev:hover i {
+	left: 10px;
+	background-position: -34px -24px;
+	_background: none;
+	_filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='../img/star_03.png');
+}
+
+.section-focus-pic .controler2 .next {
+	right: 10px;
+}
+
+.section-focus-pic .controler2 .next i {
+	background-position: -62px -68px;
+	_background: none;
+	_filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='../img//star_06.png');
+	margin-left: 10px;
+}
+
+.section-focus-pic .controler2 .next:hover i {
+	right: 10px;
+	background-position: -62px -24px;
+	_background: none;
+	_filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='../img/star_04.png');
+}
+
+
+/*banner end*/
+
+.news {
+	width: 320px;
+	height: 400px;
+	background: #fff;
+}
+
+.news .tit {
+	float: left;
+	width: 100%;
+	height: 40px;
+	padding-left: 2px;
+	line-height: 40px;
+	border-bottom: 1px solid #dbdbdb;
+	margin-top: -2px;
+}
+
+.news .tit h3 {
+	float: left;
+	font-size: 22px;
+	font-weight: 400;
+	text-indent: 5px;
+}
+
+.news .tit i {
+	float: left;
+	padding-left: 6px;
+	font-size: 20px;
+	color: #35b558;
+	line-height: 28px;
+}
+
+ul.itop10 {
+	float: left;
+	width: 280px;
+	padding-left: 35px;
+	height: 350px;
+	background: url(../img/top10bg2.png) no-repeat -2px 1px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+ul.itop10 li {
+	float: left;
+	width: 250px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 15px;
+	overflow: hidden;
+}
+
+ul.itop10 li a {
+	color: #333;
+}
+
+ul.itop10 li a:hover {
+	color: #35b558;
+}
+
+ul.itop10 li span {
+	float: right;
+	font-size: 10px;
+	color: #999;
+}
+
+
+/*养生常识*/
+.sense{
+	overflow: hidden;
+	width: 1025px;
+}
+.sense li{
+	float: left;
+	width: 321px;
+	height: 360px;
+	border:1px solid #eee;
+	margin-right: 15px;
+	background: #fff;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+.sense li a{
+	display: block;
+	width: 100%;
+	height: 280px;
+	overflow: hidden;
+}
+.sense li a img{
+	width: 100%;
+	height: 100%;
+	transition: .5s;
+}
+.sense li img:hover{
+	transform: scale(1.2);
+}
+.sense li span{
+	display: block;
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+	padding:5px 10px;
+}
+.sense li p{
+	font-size: 14px;
+	color: #666;
+	line-height: 22px;
+	padding: 0px 10px;
+	height: 46px;
+	overflow: hidden;
+}
+
+
+.classify{
+	overflow: hidden;
+	width: 1025px;
+}
+.classify li{
+	float: left;
+	width: 323px;
+	margin-right: 15px;
+	overflow: hidden;
+}
+.classdiv{
+	width: 321px;
+	height: 150px;
+	border: 1px solid #eee;
+	background: #fff;
+	font-size: 14px;
+	color: #333;
+}
+.classnow{
+	margin-top: 30px;
+}
+.classnow .sp{
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: left;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.classnow .now{
+	float: left;
+	margin-left: 20px;
+	line-height: 30px;
+}
+.classnow .now span{
+	display: block;
+	font-size: 14px;
+	color: #333;
+}
+.classnow .now label{
+	display: block;
+	font-size: 14px;
+	color: #666;
+}
+
+
+/*养生美食*/
+.food{
+	overflow: hidden;
+	width: 1100px;
+}
+.food li{
+	float: left;
+	width: 152px;
+	height: 152px;
+	border: 1px solid #eee;
+	background: #fff;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+.food li span{
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin: 15px auto;
+	overflow: hidden;
+}
+.food li label{
+	display: block;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+.food li p{
+	display: block;
+	font-size: 14px;
+	color: #35b558;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.title{
+	font-size: 20px;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+.title span{
+	float: left;
+	width: 5px;
+	height: 26px;
+	background: #35b558;
+}
+.title label{
+	float: left;
+	line-height: 26px;
+	text-indent: 10px;
+	font-style: 400;
+}
+
+
+#footer{
+	background: #fff;
+	min-width: 1000px;
+}
+.links {float:left;width:1000px;padding:13px 0;border-bottom:1px solid #eee;}
+.links b {float:left;width:75px;font-size:16px;color:#ff9900;line-height:22px;}
+.links p {float:left;width:925px;line-height:24px;font-size:12px;}
+.links p a {float:left;padding:0 5px;color:#888;}
+.ifooter {float:left;width:1000px;height:50px;line-height:50px;color:#999;}
+.footer {display:block;clear:both;width:100%;padding:20px 0;border-top:1px solid #eee;overflow:hidden;}
+.footer .foot {display:block;margin:0 auto;width:1000px;text-align:center;padding:10px 0;overflow:hidden;}
