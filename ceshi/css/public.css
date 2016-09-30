@@ -1,0 +1,123 @@
+body {
+	background: #fff;
+	font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif;
+}
+
+.main {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.mt15 {
+	margin-top: 15px;
+}
+
+.mr10 {
+	margin-right: 10px;
+}
+
+.top {
+	width: 100%;
+	height: 70px;
+	background: #f9f9f9;
+	border-bottom: 1px solid #eee;
+	min-width: 1000px;
+}
+.ding{
+	width: 100%;
+	height: 3px;
+	background: #35b558;
+}
+.logo {
+	width: 180px;
+	/*height: 60px;*/
+	float: left;
+	margin-top: 7px;
+}
+
+.nav {
+	float: left;
+}
+
+.nav li {
+	float: left;
+	font-size: 14px;
+	line-height: 70px;
+	margin-left: 90px;
+}
+
+.nav li a {
+	color: #000;
+}
+
+.nav li a.se {
+	color: #35b558;
+}
+
+.nav li a:hover {
+	color: #35b558;
+}
+
+#footer {
+	background: #f9f9f9;
+	min-width: 1000px;
+	margin-top: 30px;
+}
+
+.links {
+	float: left;
+	width: 1000px;
+	padding: 13px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.links b {
+	float: left;
+	width: 75px;
+	font-size: 16px;
+	color: #ff9900;
+	line-height: 22px;
+}
+
+.links p {
+	float: left;
+	width: 925px;
+	line-height: 24px;
+	font-size: 12px;
+}
+
+.links p a {
+	float: left;
+	padding: 0 5px;
+	color: #888;
+}
+
+.ifooter {
+	float: left;
+	width: 1000px;
+	height: 50px;
+	line-height: 50px;
+	color: #999;
+}
+
+.footer {
+	display: block;
+	clear: both;
+	width: 100%;
+	padding: 20px 0;
+	border-top: 1px solid #eee;
+	overflow: hidden;
+}
+
+.footer .foot {
+	display: block;
+	margin: 0 auto;
+	width: 1000px;
+	text-align: center;
+	padding: 10px 0;
+	overflow: hidden;
+}
+.footer .foot a{
+	color: #35b558;
+}
